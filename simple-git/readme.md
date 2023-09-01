@@ -33,7 +33,8 @@ Include into your JavaScript app as an ES Module:
 
 ```javascript
 import { simpleGit, CleanOptions } from 'simple-git';
-
+const git = simpleGit();
+git.branch()
 simpleGit().clean(CleanOptions.FORCE);
 ```
 
