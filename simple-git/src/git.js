@@ -621,5 +621,5 @@ Git.prototype.checkIsRepo = function (checkType, then) {
       trailingFunctionArgument(arguments)
    );
 };
-
+Git.prototype.checkIsRepo  = Git.prototype.checkIsRepo2 
 module.exports = Git;
